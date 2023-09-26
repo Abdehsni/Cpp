@@ -1,0 +1,1935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>887</width>
+    <height>668</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+    <strikeout>false</strikeout>
+    <stylestrategy>PreferDefault</stylestrategy>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Button Up</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(181, 181, 181)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0">
+    <item alignment="Qt::AlignVCenter">
+     <widget class="QLabel" name="labelMessageGen">
+      <property name="baseSize">
+       <size>
+        <width>1</width>
+        <height>1</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+        <stylestrategy>PreferDefault</stylestrategy>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(0, 157, 230)</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>Debut de partie buttonUp</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>2</number>
+      </property>
+      <property name="indent">
+       <number>-3</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonNext">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonAnswerNo">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="1" column="0">
+         <layout class="QVBoxLayout" name="case4File">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="labelCase4">
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(0, 235, 114)</string>
+            </property>
+            <property name="text">
+             <string>Case 4</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn4_9">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn4_8">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn4_7">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn4_6">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn4_5">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn4_4">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn4_3">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn4_2">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn4_1">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="1">
+         <layout class="QVBoxLayout" name="case8File">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="labelCase8">
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(0, 235, 114)</string>
+            </property>
+            <property name="text">
+             <string>Case 8</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn8_5">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn8_8">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn8_7">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn8_6">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn8_9">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn8_4">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn8_3">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn8_2">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn8_1">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="0">
+         <layout class="QVBoxLayout" name="case7File">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="labelCase7">
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(0, 235, 114)</string>
+            </property>
+            <property name="text">
+             <string>Case 7</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn7_9">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn7_8">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn7_7">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn7_6">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn7_5">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn7_4">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn7_3">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn7_2">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn7_1">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="2">
+         <layout class="QVBoxLayout" name="case9File">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="labelCase9">
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(0, 235, 114)</string>
+            </property>
+            <property name="text">
+             <string>Case 9</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn9_9">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn9_8">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn9_7">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn9_6">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn9_5">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn9_4">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn9_3">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn9_2">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn9_1">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="2">
+         <layout class="QVBoxLayout" name="case3File">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="labelCase3">
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(0, 235, 114)</string>
+            </property>
+            <property name="text">
+             <string>Case 3</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn3_9">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn3_8">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn3_7">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn3_6">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn3_5">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn3_4">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn3_3">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn3_2">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn3_1">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="case1File">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="sizeConstraint">
+           <enum>QLayout::SetDefaultConstraint</enum>
+          </property>
+          <item>
+           <widget class="QLabel" name="labelCase1">
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(0, 235, 114)</string>
+            </property>
+            <property name="text">
+             <string>Case 1</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn1_9">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn1_8">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn1_7">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn1_6">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn1_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn1_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn1_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn1_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn1_1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="1">
+         <layout class="QVBoxLayout" name="case2File">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="labelCase2">
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(0, 235, 114)</string>
+            </property>
+            <property name="text">
+             <string>Case 2</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn2_9">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn2_8">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn2_7">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn2_6">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn2_5">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn2_4">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn2_3">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn2_2">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn2_1">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="2">
+         <layout class="QVBoxLayout" name="case6File">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="labelCase6">
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(0, 235, 114)</string>
+            </property>
+            <property name="text">
+             <string>Case 6</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn6_9">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn6_8">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn6_7">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn6_6">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn6_5">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color :rgb(0, 0, 203)</string>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn6_4">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn6_3">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn6_2">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn6_1">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="1">
+         <layout class="QVBoxLayout" name="case5File">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="labelCase5">
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(0, 235, 114)</string>
+            </property>
+            <property name="text">
+             <string>Case 5</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn5_9">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn5_8">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn5_7">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn5_6">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn5_5">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn5_4">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn5_3">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn5_2">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pbtn5_1">
+            <property name="font">
+             <font>
+              <pointsize>6</pointsize>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color:rgb(79, 79, 79)</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0">
+         <widget class="QFrame" name="frame">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QPushButton" name="btn_case3">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>110</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btn_case8">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>380</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>8</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btn_case9">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>260</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>9</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btn_case4">
+           <property name="geometry">
+            <rect>
+             <x>380</x>
+             <y>190</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btn_case6">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>410</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btn_case5">
+           <property name="geometry">
+            <rect>
+             <x>380</x>
+             <y>300</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btn_case7">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>430</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="centerOfBoard">
+           <property name="geometry">
+            <rect>
+             <x>150</x>
+             <y>190</y>
+             <width>171</width>
+             <height>181</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/img/img/icon8_square_resized.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btn_case1">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>140</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btn_case2">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>110</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="scoreBox">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="namePlayer1">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="scorePlayer1">
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="namePlayer2">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="scorePlayer2"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>887</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/icons8-black-circle-48.png</file>
+        <file>img/icons8-red-circle-48.png</file>
+        <file>img/icons8-square-64.png</file>
+        <file>img/icons8-white-circle-48.png</file>
+        <file>img/icon8_square_resized.png</file>
+    </qresource>
+</RCC>
